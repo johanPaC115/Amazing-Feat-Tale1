@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: e52b13e14fb5ca64788185f55637d009
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4629938300229061702
+    second: lizardmanYellow_0idle1
+  - first:
+      213: -277225327026994972
+    second: lizardmanYellow_1idle2
+  - first:
+      213: 7803253263606137165
+    second: lizardmanYellow_2idle3
+  - first:
+      213: 5052407262848463101
+    second: lizardmanYellow_3walk1
+  - first:
+      213: 1638853541297370041
+    second: lizardmanYellow_4walk2
+  - first:
+      213: -7785906239446662969
+    second: lizardmanYellow_5walk3
+  - first:
+      213: -8608680807353484116
+    second: lizardmanYellow_6walk4
+  - first:
+      213: -3704931429328951590
+    second: lizardmanYellow_7walk5
+  - first:
+      213: -6913300209485539390
+    second: lizardmanYellow_8walk6
+  - first:
+      213: 3344463835358166554
+    second: lizardmanYellow_9attack1
+  - first:
+      213: 2087919028913181507
+    second: lizardmanYellow_10attack2
+  - first:
+      213: 5544217953743832595
+    second: lizardmanYellow_11attack3
+  - first:
+      213: -6343231858487924700
+    second: lizardmanYellow_12attack4
+  - first:
+      213: -434288461443241359
+    second: lizardmanYellow_13attack5
+  - first:
+      213: 7917133942290786453
+    second: lizardmanYellow_14hurt1
+  - first:
+      213: 6809248812825805480
+    second: lizardmanYellow_15hurt2
+  - first:
+      213: -5582489031551356761
+    second: lizardmanYellow_16death1
+  - first:
+      213: -8527586944879459882
+    second: lizardmanYellow_17death2
+  - first:
+      213: -6633934519951647263
+    second: lizardmanYellow_18death3
+  - first:
+      213: -6264688338418135362
+    second: lizardmanYellow_19death4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +131,465 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: lizardmanYellow_0idle1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 221
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c01258a58d04040800000000000000
+      internalID: 4629938300229061702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_1idle2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 220
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e080dba809172cf0800000000000000
+      internalID: -277225327026994972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_2idle3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 220
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41c6a5ff79ba4c60800000000000000
+      internalID: 7803253263606137165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_3walk1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 158
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0bfa203a1cd1640800000000000000
+      internalID: 5052407262848463101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_4walk2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 158
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3bbefdc906eb610800000000000000
+      internalID: 1638853541297370041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_5walk3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 157
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0c847d687e2f390800000000000000
+      internalID: -7785906239446662969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_6walk4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 158
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacf8fc9a62d78880800000000000000
+      internalID: -8608680807353484116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_7walk5
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 157
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6eaad9e70759cc0800000000000000
+      internalID: -3704931429328951590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_8walk6
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 157
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c71bf376160f00a0800000000000000
+      internalID: -6913300209485539390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_9attack1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 93
+        width: 97
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ef9a6732ce96e20800000000000000
+      internalID: 3344463835358166554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_10attack2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 93
+        width: 97
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34316266b47c9fc10800000000000000
+      internalID: 2087919028913181507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_11attack3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 93
+        width: 97
+        height: 59
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3168e3abad401fc40800000000000000
+      internalID: 5544217953743832595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_12attack4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 93
+        width: 97
+        height: 59
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428e2ea8b3058f7a0800000000000000
+      internalID: -6343231858487924700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_13attack5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 93
+        width: 97
+        height: 59
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17aef9df1f819f9f0800000000000000
+      internalID: -434288461443241359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_14hurt1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 21
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5982e6daf5f4fdd60800000000000000
+      internalID: 7917133942290786453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_15hurt2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 20
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a28bb3e7bf4f7e50800000000000000
+      internalID: 6809248812825805480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_16death1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 20
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0fdd79dc30782b0800000000000000
+      internalID: -5582489031551356761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_17death2
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 21
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1833fcadce7a980800000000000000
+      internalID: -8527586944879459882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_18death3
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 22
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed9413c3b78fe3a0800000000000000
+      internalID: -6633934519951647263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanYellow_19death4
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 21
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe0e00e52b5f09a0800000000000000
+      internalID: -6264688338418135362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

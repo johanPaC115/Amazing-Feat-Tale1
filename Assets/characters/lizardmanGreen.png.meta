@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: a0a95c8fa38026b469ad9c95c7266d9e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5207789658750738596
+    second: lizardmanGreen_0Idle1
+  - first:
+      213: 8621952368582015763
+    second: lizardmanGreen_1Idle2
+  - first:
+      213: 179590549106340945
+    second: lizardmanGreen_2Idle3
+  - first:
+      213: -6981227212907090796
+    second: lizardmanGreen_3Walk1
+  - first:
+      213: -586794280937966682
+    second: lizardmanGreen_4Walk2
+  - first:
+      213: 9011716180835950786
+    second: lizardmanGreen_5Walk3
+  - first:
+      213: -7426517845513487875
+    second: lizardmanGreen_6Walk4
+  - first:
+      213: 6718979771598300749
+    second: lizardmanGreen_7Wlak5
+  - first:
+      213: 5603301868347323785
+    second: lizardmanGreen_8Walk6
+  - first:
+      213: 434144901228781881
+    second: lizardmanGreen_9Attack1
+  - first:
+      213: -5710879781015395358
+    second: lizardmanGreen_10attack2
+  - first:
+      213: 6591388271089430572
+    second: lizardmanGreen_11Attack3
+  - first:
+      213: 5512909151246426609
+    second: lizardmanGreen_12Attack4
+  - first:
+      213: -407218991769917926
+    second: lizardmanGreen_13attack5
+  - first:
+      213: 7925566148811486467
+    second: lizardmanGreen_14Hurt1
+  - first:
+      213: 1192085529712656383
+    second: lizardmanGreen_15Hurt2
+  - first:
+      213: -8516459242006814249
+    second: lizardmanGreen_16death1
+  - first:
+      213: 513655440079395877
+    second: lizardmanGreen_17death2
+  - first:
+      213: 7762260083893912238
+    second: lizardmanGreen_18death3
+  - first:
+      213: -8547532164619620137
+    second: lizardmanGreen_19death4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +131,465 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: lizardmanGreen_0Idle1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 221
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f953db5e63ab7b0800000000000000
+      internalID: -5207789658750738596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_1Idle2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 220
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b3ba78ff357a770800000000000000
+      internalID: 8621952368582015763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_2Idle3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 220
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154308427a80e7200800000000000000
+      internalID: 179590549106340945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_3Walk1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 158
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ce16686d2bd1f90800000000000000
+      internalID: -6981227212907090796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_4Walk2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 158
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a33670e5b94bd7f0800000000000000
+      internalID: -586794280937966682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_5Walk3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 157
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0ed5fce1c001d70800000000000000
+      internalID: 9011716180835950786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_6Walk4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 158
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9b11ced55bfe890800000000000000
+      internalID: -7426517845513487875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_7Wlak5
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 157
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46e62be08c9e3d50800000000000000
+      internalID: 6718979771598300749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_8Walk6
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 157
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985ff189c5de2cd40800000000000000
+      internalID: 5603301868347323785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_9Attack1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 93
+        width: 97
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931e9cacc74660600800000000000000
+      internalID: 434144901228781881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_10attack2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 93
+        width: 97
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3ed91c811eeb0b0800000000000000
+      internalID: -5710879781015395358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_11Attack3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 93
+        width: 97
+        height: 59
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2036fab5b0597b50800000000000000
+      internalID: 6591388271089430572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_12Attack4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 93
+        width: 97
+        height: 59
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f12b071aa9c18c40800000000000000
+      internalID: 5512909151246426609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_13attack5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 93
+        width: 97
+        height: 59
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16e2c90c74495af0800000000000000
+      internalID: -407218991769917926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_14Hurt1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 21
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305f4cfbb644dfd60800000000000000
+      internalID: 7925566148811486467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_15Hurt2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 20
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffff76c29732b8010800000000000000
+      internalID: 1192085529712656383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_16death1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 20
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1671801757fc980800000000000000
+      internalID: -8516459242006814249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_17death2
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 21
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c11eab6eed02700800000000000000
+      internalID: 513655440079395877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_18death3
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 22
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2c0ba8b6619bb60800000000000000
+      internalID: 7762260083893912238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lizardmanGreen_19death4
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 21
+        width: 92
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d03f9578c0116980800000000000000
+      internalID: -8547532164619620137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
