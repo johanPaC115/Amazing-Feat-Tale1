@@ -1,67 +1,82 @@
 fileFormatVersion: 2
-guid: e52b13e14fb5ca64788185f55637d009
+guid: 6aec9082842337c4cb56153ffc48be9a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4629938300229061702
-    second: lizardmanYellow_0idle1
+      213: 4136674337628803617
+    second: medusa_0
   - first:
-      213: -277225327026994972
-    second: lizardmanYellow_1idle2
+      213: 3324683057419038311
+    second: medusa_1
   - first:
-      213: 7803253263606137165
-    second: lizardmanYellow_2idle3
+      213: 8492708809264189560
+    second: medusa_2
   - first:
-      213: 5052407262848463101
-    second: lizardmanYellow_3walk1
+      213: 182705719902349436
+    second: medusa_3
   - first:
-      213: 1638853541297370041
-    second: lizardmanYellow_4walk2
+      213: -4948171586516084906
+    second: medusa_4
   - first:
-      213: -7785906239446662969
-    second: lizardmanYellow_5walk3
+      213: 2985165044223055928
+    second: medusa_5
   - first:
-      213: -8608680807353484116
-    second: lizardmanYellow_6walk4
+      213: 6677617341741994946
+    second: medusa_6
   - first:
-      213: -3704931429328951590
-    second: lizardmanYellow_7walk5
+      213: 2934483351977980405
+    second: medusa_7
   - first:
-      213: -6913300209485539390
-    second: lizardmanYellow_8walk6
+      213: -441719204067097147
+    second: medusa_8
   - first:
-      213: 3344463835358166554
-    second: lizardmanYellow_9attack1
+      213: -7132589419691550755
+    second: medusa_9
   - first:
-      213: 2087919028913181507
-    second: lizardmanYellow_10attack2
+      213: 6094023341241104272
+    second: medusa_10
   - first:
-      213: 5544217953743832595
-    second: lizardmanYellow_11attack3
+      213: 8227003159190687576
+    second: medusa_11
   - first:
-      213: -6343231858487924700
-    second: lizardmanYellow_12attack4
+      213: -3450181080022685229
+    second: medusa_12
   - first:
-      213: -434288461443241359
-    second: lizardmanYellow_13attack5
+      213: 2986449523510340298
+    second: medusa_13
   - first:
-      213: 7917133942290786453
-    second: lizardmanYellow_14hurt1
+      213: -9024200400979162793
+    second: medusa_14
   - first:
-      213: 6809248812825805480
-    second: lizardmanYellow_15hurt2
+      213: -3650719590329528738
+    second: medusa_15
   - first:
-      213: -5582489031551356761
-    second: lizardmanYellow_16death1
+      213: -1210114574223808696
+    second: medusa_16
   - first:
-      213: -8527586944879459882
-    second: lizardmanYellow_17death2
+      213: 2115566733305465638
+    second: medusa_17
   - first:
-      213: -6633934519951647263
-    second: lizardmanYellow_18death3
+      213: -9038415630129885
+    second: medusa_18
   - first:
-      213: -6264688338418135362
-    second: lizardmanYellow_19death4
+      213: 5483638585928260307
+    second: medusa_19
+  - first:
+      213: 6214014996776388784
+    second: medusa_20
+  - first:
+      213: 8684565063149676781
+    second: medusa_21
+  - first:
+      213: 7560516843571556423
+    second: medusa_22
+  - first:
+      213: -5149379275828755475
+    second: medusa_23
+  - first:
+      213: 7134730441202399916
+    second: medusa_24
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -105,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -171,13 +186,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lizardmanYellow_0idle1
+      name: medusa_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 221
-        width: 92
-        height: 54
+        x: 0
+        y: 400
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64c01258a58d04040800000000000000
-      internalID: 4629938300229061702
+      spriteID: 122d6dd946b686930800000000000000
+      internalID: 4136674337628803617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_1idle2
+      name: medusa_1
       rect:
         serializedVersion: 2
-        x: 114
-        y: 220
-        width: 92
-        height: 54
+        x: 100
+        y: 400
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e080dba809172cf0800000000000000
-      internalID: -277225327026994972
+      spriteID: 76ea83430a5a32e20800000000000000
+      internalID: 3324683057419038311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_2idle3
+      name: medusa_2
       rect:
         serializedVersion: 2
-        x: 216
-        y: 220
-        width: 92
-        height: 54
+        x: 200
+        y: 400
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d41c6a5ff79ba4c60800000000000000
-      internalID: 7803253263606137165
+      spriteID: 870d50d6aa92cd570800000000000000
+      internalID: 8492708809264189560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_3walk1
+      name: medusa_3
       rect:
         serializedVersion: 2
-        x: 17
-        y: 158
-        width: 92
-        height: 54
+        x: 300
+        y: 400
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df0bfa203a1cd1640800000000000000
-      internalID: 5052407262848463101
+      spriteID: c78263d52e9198200800000000000000
+      internalID: 182705719902349436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_4walk2
+      name: medusa_4
       rect:
         serializedVersion: 2
-        x: 113
-        y: 158
-        width: 92
-        height: 54
+        x: 400
+        y: 400
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b3bbefdc906eb610800000000000000
-      internalID: 1638853541297370041
+      spriteID: 657170a9820945bb0800000000000000
+      internalID: -4948171586516084906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_5walk3
+      name: medusa_5
       rect:
         serializedVersion: 2
-        x: 215
-        y: 157
-        width: 92
-        height: 54
+        x: 0
+        y: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c0c847d687e2f390800000000000000
-      internalID: -7785906239446662969
+      spriteID: 83814d8aacf6d6920800000000000000
+      internalID: 2985165044223055928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_6walk4
+      name: medusa_6
       rect:
         serializedVersion: 2
-        x: 314
-        y: 158
-        width: 92
-        height: 54
+        x: 100
+        y: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cacf8fc9a62d78880800000000000000
-      internalID: -8608680807353484116
+      spriteID: 2c31580c799abac50800000000000000
+      internalID: 6677617341741994946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_7walk5
+      name: medusa_7
       rect:
         serializedVersion: 2
-        x: 417
-        y: 157
-        width: 92
-        height: 54
+        x: 200
+        y: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad6eaad9e70759cc0800000000000000
-      internalID: -3704931429328951590
+      spriteID: 5f1f1f1af0169b820800000000000000
+      internalID: 2934483351977980405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_8walk6
+      name: medusa_8
       rect:
         serializedVersion: 2
-        x: 513
-        y: 157
-        width: 92
-        height: 54
+        x: 300
+        y: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c71bf376160f00a0800000000000000
-      internalID: -6913300209485539390
+      spriteID: 5c5cc1769b2bed9f0800000000000000
+      internalID: -441719204067097147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_9attack1
+      name: medusa_9
       rect:
         serializedVersion: 2
-        x: 16
-        y: 93
-        width: 97
-        height: 59
+        x: 400
+        y: 300
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,20 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1ef9a6732ce96e20800000000000000
-      internalID: 3344463835358166554
+      spriteID: dd7539e76b3f30d90800000000000000
+      internalID: -7132589419691550755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_10attack2
+      name: medusa_10
       rect:
         serializedVersion: 2
-        x: 119
-        y: 93
-        width: 97
-        height: 59
+        x: 0
+        y: 200
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,83 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34316266b47c9fc10800000000000000
-      internalID: 2087919028913181507
+      spriteID: 0977d9bf0f1529450800000000000000
+      internalID: 6094023341241104272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_11attack3
+      name: medusa_11
       rect:
         serializedVersion: 2
-        x: 216
-        y: 93
-        width: 97
-        height: 59
-      alignment: 9
-      pivot: {x: 0.4, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3168e3abad401fc40800000000000000
-      internalID: 5544217953743832595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lizardmanYellow_12attack4
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 93
-        width: 97
-        height: 59
-      alignment: 9
-      pivot: {x: 0.4, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 428e2ea8b3058f7a0800000000000000
-      internalID: -6343231858487924700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lizardmanYellow_13attack5
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 93
-        width: 97
-        height: 59
-      alignment: 9
-      pivot: {x: 0.4, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17aef9df1f819f9f0800000000000000
-      internalID: -434288461443241359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lizardmanYellow_14hurt1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 21
-        width: 92
-        height: 54
+        x: 100
+        y: 200
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,20 +431,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5982e6daf5f4fdd60800000000000000
-      internalID: 7917133942290786453
+      spriteID: 85fc395e8cf2c2270800000000000000
+      internalID: 8227003159190687576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_15hurt2
+      name: medusa_12
       rect:
         serializedVersion: 2
-        x: 113
-        y: 20
-        width: 92
-        height: 54
+        x: 200
+        y: 200
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,20 +452,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a28bb3e7bf4f7e50800000000000000
-      internalID: 6809248812825805480
+      spriteID: 3d9697a669e7e10d0800000000000000
+      internalID: -3450181080022685229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_16death1
+      name: medusa_13
       rect:
         serializedVersion: 2
-        x: 216
-        y: 20
-        width: 92
-        height: 54
+        x: 300
+        y: 200
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,20 +473,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a0fdd79dc30782b0800000000000000
-      internalID: -5582489031551356761
+      spriteID: acae77cc400027920800000000000000
+      internalID: 2986449523510340298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_17death2
+      name: medusa_14
       rect:
         serializedVersion: 2
-        x: 319
-        y: 21
-        width: 92
-        height: 54
+        x: 400
+        y: 200
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -542,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d1833fcadce7a980800000000000000
-      internalID: -8527586944879459882
+      spriteID: 75903bd2c8993c280800000000000000
+      internalID: -9024200400979162793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_18death3
+      name: medusa_15
       rect:
         serializedVersion: 2
-        x: 416
-        y: 22
-        width: 92
-        height: 54
+        x: 0
+        y: 100
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -563,20 +515,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ed9413c3b78fe3a0800000000000000
-      internalID: -6633934519951647263
+      spriteID: e5e49dbffd9065dc0800000000000000
+      internalID: -3650719590329528738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lizardmanYellow_19death4
+      name: medusa_16
       rect:
         serializedVersion: 2
-        x: 521
-        y: 21
-        width: 92
-        height: 54
+        x: 100
+        y: 100
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,8 +536,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebe0e00e52b5f09a0800000000000000
-      internalID: -6264688338418135362
+      spriteID: 847edd9c43fc43fe0800000000000000
+      internalID: -1210114574223808696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medusa_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b4e453cb00c5d10800000000000000
+      internalID: 2115566733305465638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medusa_18
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325a80fdb93efdff0800000000000000
+      internalID: -9038415630129885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medusa_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da11e68d3cc91c40800000000000000
+      internalID: 5483638585928260307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medusa_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b88ecf57bd9c3650800000000000000
+      internalID: 6214014996776388784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medusa_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8edc189e5c58870800000000000000
+      internalID: 8684565063149676781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medusa_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740b07b030a5ce860800000000000000
+      internalID: 7560516843571556423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medusa_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3087ac4dab988b0800000000000000
+      internalID: -5149379275828755475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medusa_24
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caaf80ce887a30360800000000000000
+      internalID: 7134730441202399916
       vertices: []
       indices: 
       edges: []
