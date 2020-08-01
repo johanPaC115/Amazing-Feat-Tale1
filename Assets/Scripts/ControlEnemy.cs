@@ -18,7 +18,7 @@ public class ControlEnemy : MonoBehaviour
     // 
     void FixedUpdate()
     {
-        Vector2 v = new Vector2(vel, 0);
+        Vector2 v = new Vector2(vel, rgb.velocity.y);
         rgb.velocity = v;
         if(anim.GetCurrentAnimatorStateInfo(0).IsName("walk")&& Random.value < 1f / (60f * 3f))
         {
