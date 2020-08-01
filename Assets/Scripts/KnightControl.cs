@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class KnightControl : MonoBehaviour
 {
@@ -8,6 +9,12 @@ public class KnightControl : MonoBehaviour
     Animator anim;
     public int maxVel=3;
     bool isDer = true;
+
+    public Slider slider;
+    public Text txt;
+
+    public int energy = 100;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +22,14 @@ public class KnightControl : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    
+     void Update()
+    {
+        slider.value = energy;
+        txt.text = energy.ToString();
+
+    }
+
+
     void FixedUpdate()
     {
         float v =Input.GetAxis("Horizontal");
