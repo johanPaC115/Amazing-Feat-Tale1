@@ -32,27 +32,45 @@ public class KnightControl : MonoBehaviour
 
     void FixedUpdate()
     {
-        float v =Input.GetAxis("Horizontal");
+        /*Movimiento Horizontal*/
+        float H =Input.GetAxis("Horizontal");
         Vector2 vel = new Vector2(0, rgb.velocity.y);
-        v *= maxVel;
-        vel.x = v;
+        H *= maxVel;
+        vel.x = H;
         rgb.velocity = vel;
         anim.SetInteger("vel", (int)vel.x);
-        if (isDer && v < 0)
-        {
-            isDer = false;
+        if (isDer && H < 0)
+        {         
             Flip();
-        }else if (!isDer && v > 0)
-        {
-            isDer = true;
+        }else if (!isDer && H > 0)
+        {         
             Flip();
+        }
+        /*Movimineto Vertical*/
+        float V = Input.GetAxis("Vertical");
+        Vector2 sal = new Vector2(rgb.velocity.x, rgb.velocity.y);
+        sal.y = V;
+        rgb.velocity = sal;
+
+        /*Ataque Base*/
+        // float ataqueBase = Input.GetAxis("fire1");
+        // Debug.Log("Ataque: " + ataqueBase);
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            ataque1();
         }
     }
 
     void Flip()
     {
+        isDer = !isDer;
         var s = transform.localScale;
         s.x *= -1;
         transform.localScale = s;
+    }
+
+    void ataque1()
+    {
+        anim.SetTrigger("ataque1");
     }
 }
