@@ -14,6 +14,13 @@ public class KnightControl : MonoBehaviour
     public Text txt;
 
     public int energy = 100;
+    public int GolpeAire = 1;
+    public int GolpeBox = 3;
+    public int PremioHeart = 15;
+
+    bool enFire1 = false;
+
+    boxControl ctrBox = null;
 
     // Start is called before the first frame update
     void Start()
@@ -24,9 +31,15 @@ public class KnightControl : MonoBehaviour
 
      void Update()
     {
+        if (Mathf.Abs(Input.GetAxis("Fire1")) > 0.01f )
+        {
+            anim.SetTrigger("ataque1");
+            if (ctrBox != null)
+                ctrBox.GolpeKnight();                        
+        }
+            
         slider.value = energy;
         txt.text = energy.ToString();
-
     }
 
 
@@ -52,13 +65,13 @@ public class KnightControl : MonoBehaviour
         sal.y = V;
         rgb.velocity = sal;
 
-        /*Ataque Base*/
+        /*Ataque Base
         // float ataqueBase = Input.GetAxis("fire1");
         // Debug.Log("Ataque: " + ataqueBase);
         if (Input.GetKey(KeyCode.LeftControl))
         {
             ataque1();
-        }
+        }*/
     }
 
     void Flip()
@@ -72,5 +85,15 @@ public class KnightControl : MonoBehaviour
     void ataque1()
     {
         anim.SetTrigger("ataque1");
+    }
+
+    public bool isAttack1()
+    {
+        return enFire1;
+    }
+
+    public void SetControlBox(boxControl ctr)
+    {
+        ctrBox = ctr;
     }
 }
