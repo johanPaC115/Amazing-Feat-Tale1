@@ -5,10 +5,17 @@ using UnityEngine.UI;
 
 public class KnightControl : MonoBehaviour
 {
-    Rigidbody2D rgb;
-    Animator anim;
-    public int maxVel=3;
-    bool isDer = true;
+    private Rigidbody2D myRigidbody;
+
+    [SerializeField]
+    private float movementSpeed;
+
+    private bool attack1;
+
+    private bool isRight;
+    private Animator myAnimator;
+    
+    
 
     public Slider slider;
     public Text txt;
@@ -25,15 +32,18 @@ public class KnightControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rgb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+        isRight = true;
+        myRigidbody = GetComponent<Rigidbody2D>();
+        myAnimator = GetComponent<Animator>();
     }
 
      void Update()
     {
+        HandleInput();
+
         if (Mathf.Abs(Input.GetAxis("Fire1")) > 0.01f )
         {
-            anim.SetTrigger("ataque1");
+            myAnimator.SetTrigger("ataque1");
             if (ctrBox != null)
                 ctrBox.GolpeKnight();                        
         }
@@ -47,23 +57,19 @@ public class KnightControl : MonoBehaviour
     {
         /*Movimiento Horizontal*/
         float H =Input.GetAxis("Horizontal");
-        Vector2 vel = new Vector2(0, rgb.velocity.y);
-        H *= maxVel;
-        vel.x = H;
-        rgb.velocity = vel;
-        anim.SetInteger("vel", (int)vel.x);
-        if (isDer && H < 0)
-        {         
-            Flip();
-        }else if (!isDer && H > 0)
-        {         
-            Flip();
-        }
+
+        HandleMovement(H);
+
+        Flip(H);
+
+        HandleAttacks();
+
+        
         /*Movimineto Vertical*/
         float V = Input.GetAxis("Vertical");
-        Vector2 sal = new Vector2(rgb.velocity.x, rgb.velocity.y);
+        Vector2 sal = new Vector2(myRigidbody.velocity.x, myRigidbody.velocity.y);
         sal.y = V;
-        rgb.velocity = sal;
+        myRigidbody.velocity = sal;
 
         /*Ataque Base
         // float ataqueBase = Input.GetAxis("fire1");
@@ -74,17 +80,46 @@ public class KnightControl : MonoBehaviour
         }*/
     }
 
-    void Flip()
+    private void HandleMovement(float h)
     {
-        isDer = !isDer;
-        var s = transform.localScale;
-        s.x *= -1;
-        transform.localScale = s;
+        if (!this.myAnimator.GetCurrentAnimatorStateInfo(0).IsTag("attack1"))
+        {
+            myRigidbody.velocity = new Vector2(h * movementSpeed, myRigidbody.velocity.y);
+        }
+        
+        myAnimator.SetFloat("speed", Mathf.Abs(h));
+    }
+
+    private void HandleAttacks()
+    {
+        if (attack1 && !this.myAnimator.GetCurrentAnimatorStateInfo(0).IsTag("attack1"))
+        {
+            myAnimator.SetTrigger("attack1");
+            attack1 = !attack1;
+            myRigidbody.velocity = new Vector2(0, myRigidbody.velocity.y);
+        }
+    }
+    private void HandleInput()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            attack1 = true;
+        }
+    }
+    void Flip(float horizontal)
+    {
+        if(horizontal > 0 && !isRight || horizontal < 0 && isRight) 
+        { 
+        isRight = !isRight;
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+        }
     }
 
     void ataque1()
     {
-        anim.SetTrigger("ataque1");
+        myAnimator.SetTrigger("ataque1");
     }
 
     public bool isAttack1()
