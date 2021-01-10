@@ -17,21 +17,14 @@ public class EspadaKnight : MonoBehaviour
     {
         
     }
-
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.name.Equals("box")) 
-        {
-            ctr.SetControlBox(collision.gameObject.GetComponent<boxControl>());
-        }
-    }
-    void OnTriggerExit2D(Collider2D collision)
+   
+  
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.name.Equals("box"))
         {
-            ctr.SetControlBox(null);
-        }    
+            ctr.SetControlBox(collision.gameObject.GetComponent<controlBox>());
+        }
+        
     }
-
-
 }
